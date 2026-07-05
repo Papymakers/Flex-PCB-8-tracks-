@@ -1,60 +1,60 @@
-🇫🇷 **Français** | [🇬🇧 English](README.en.md)
+[🇫🇷 Français](README.fr.md) | 🇬🇧 **English**
 
-# FLEX-PCB 8 pistes — pas 2.54 mm
+# FLEX-PCB 8 tracks — 2.54 mm pitch
 
-PCB souple de raccordement entre 2 cartes par connecteur ZIF.
+Flexible board-to-board interconnect using a ZIF connector.
 
-Nappe souple (FLEX-PCB) **8 pistes** au pas **2.54 mm** (.100"), en **simple face**,
-prévue pour le connecteur **ZIF-LINE TE Connectivity 487925-1** (8 positions, traversant).
+Flexible ribbon (FLEX-PCB) with **8 tracks** at **2.54 mm** (.100") pitch,
+**single-sided**, designed for the **TE Connectivity 487925-1 ZIF-LINE**
+connector (8 positions, through-hole).
 
-![Nappe FLEX 8 pistes](hardware/pcb/flex_pcb_8_pistes.png)
+![FLEX 8-track ribbon](hardware/pcb/flex_pcb_8_pistes.png)
 
-Élément de liaison réutilisable pour relier deux cartes rigides dans un boîtier
-DIN, sans câblage fil à fil. Utilisée notamment par le
-[kit d'affichage OLED 2 zones](https://github.com/Papymakers/heating-2z-OLED-display-board),
-mais adaptable à tout montage disposant de connecteurs ZIF 8 broches au pas 2.54 mm.
+Reusable link element to connect two rigid boards inside a DIN enclosure,
+without wire-to-wire cabling. Used in particular by the
+[2-zone OLED display kit](https://github.com/Papymakers/heating-2z-OLED-display-board),
+but suitable for any assembly fitted with 8-way ZIF connectors at 2.54 mm pitch.
 
-## Caractéristiques
+## Specifications
 
-| Paramètre | Valeur |
-|-----------|--------|
-| Nombre de pistes | **8** |
-| Pas | **2.54 mm** (.100") |
+| Parameter | Value |
+|-----------|-------|
+| Number of tracks | **8** |
+| Pitch | **2.54 mm** (.100") |
 | Dimensions | **71.1 mm × 22.9 mm** |
-| Construction | **Simple face** |
-| Connecteur cible | TE Connectivity **487925-1** (ZIF-LINE, 8 pos., traversant) — réf. Mouser 571-487925-1 |
-| Contacts | exposés en extrémité, insertion ZIF |
+| Construction | **Single-sided** |
+| Target connector | TE Connectivity **487925-1** (ZIF-LINE, 8 pos., through-hole) — Mouser P/N 571-487925-1 |
+| Contacts | exposed at each end, ZIF insertion |
 
 ## Insertion
 
-Le connecteur ZIF **487925-1** ne possède des contacts que sur une **seule
-face**. Attention au sens de montage : les pistes de la nappe doivent être
-orientées **côté contacts du connecteur** (face opposée au rabat / à
-l'actionneur), afin que la nappe soit en contact direct sans avoir à la
-plier ensuite.
+The **487925-1** ZIF connector has contacts on **one side only**. Mind the
+orientation: the ribbon's tracks must face the **connector's contact side**
+(opposite the flap / actuator), so the ribbon makes direct contact without
+having to be folded afterwards.
 
-Procédure : lever l'actionneur, insérer la nappe pistes vers les contacts,
-puis rabaisser l'actionneur pour verrouiller. Un connecteur à chaque
-extrémité permet une liaison carte-à-carte entièrement débrochable.
+Procedure: lift the actuator, insert the ribbon tracks toward the contacts,
+then lower the actuator to lock. A connector at each end gives a fully
+removable board-to-board link.
 
-## Commander la nappe
+## Ordering
 
-Les nappes sont vendues sur [papymakers.com](https://papymakers.com).
+Ribbons are sold on [papymakers.com](https://papymakers.com).
 
-| Option | Prix indicatif |
-|--------|----------------|
-| Nappe FLEX-PCB 8 pistes | **5€** |
+| Option | Indicative price |
+|--------|------------------|
+| FLEX-PCB 8-track ribbon | **€5** |
 
-*Frais de port inclus. Expédition depuis la France.*
+*Shipping included. Ships from France.*
 
-## Projets liés
+## Related projects
 
-- [`heating-2z-OLED-display-board`](https://github.com/Papymakers/heating-2z-OLED-display-board) — kit d'affichage OLED 2 zones (utilise cette nappe)
+- [`heating-2z-OLED-display-board`](https://github.com/Papymakers/heating-2z-OLED-display-board) — 2-zone OLED display kit (uses this ribbon)
 
-## Licence
+## License
 
-Documentation publiée sous licence **CC BY-SA 4.0**.
+Documentation published under the **CC BY-SA 4.0** license.
 
 ---
 
-**Papy Makers** — [papymakers.com](https://papymakers.com) — Normandie, France
+**Papy Makers** — [papymakers.com](https://papymakers.com) — Normandy, France
