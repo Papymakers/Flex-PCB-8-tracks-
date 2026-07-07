@@ -55,6 +55,8 @@ Ribbons are sold on [papymakers.com](https://papymakers.com).
 
 Documentation published under the **CC BY-SA 4.0** license.
 
+Copyright (c) 2026 D.Mattera — Papy Makers
+
 ---
 
 **Papy Makers** — [papymakers.com](https://papymakers.com) — Normandy, France
